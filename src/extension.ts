@@ -15,7 +15,17 @@ const keymap = new Map<string, { vscodeShortcut: string, description: string }>(
   ['alt+f7', { vscodeShortcut: 'Shift + F12', description: 'Find Usages' }],
   ['shift+f6', { vscodeShortcut: 'F2', description: 'Rename' }],
   ['ctrl+y', { vscodeShortcut: 'Ctrl + Shift + K', description: 'Delete Line' }],
-  ['cmd+y', { vscodeShortcut: 'Cmd + Shift + K', description: 'Delete Line' }]
+  ['cmd+y', { vscodeShortcut: 'Cmd + Shift + K', description: 'Delete Line' }],
+  ['ctrl+alt+left', { vscodeShortcut: 'Alt + Left', description: 'Navigate Back' }],
+  ['ctrl+alt+right', { vscodeShortcut: 'Alt + Right', description: 'Navigate Forward' }],
+  ['cmd+alt+left', { vscodeShortcut: 'Ctrl + -', description: 'Navigate Back' }],
+  ['cmd+alt+right', { vscodeShortcut: 'Ctrl + Shift + -', description: 'Navigate Forward' }],
+  ['cmd+option+left', { vscodeShortcut: 'Ctrl + -', description: 'Navigate Back' }],
+  ['cmd+option+right', { vscodeShortcut: 'Ctrl + Shift + -', description: 'Navigate Forward' }],
+  ['option+cmd+left', { vscodeShortcut: 'Ctrl + -', description: 'Navigate Back' }],
+  ['option+cmd+right', { vscodeShortcut: 'Ctrl + Shift + -', description: 'Navigate Forward' }],
+  ['cmd+[', { vscodeShortcut: 'Ctrl + -', description: 'Navigate Back' }],
+  ['cmd+]', { vscodeShortcut: 'Ctrl + Shift + -', description: 'Navigate Forward' }]
 ]);
 
 export function activate(context: vscode.ExtensionContext) {

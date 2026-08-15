@@ -4,7 +4,7 @@
   "icon": "images/icon.png",
   "publisher": "mito",
   "description": "When you type a shortcut in Intellij, It will tell you the corresponding shortcut in VS Code.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/Mizuhara-Mito/intellij-shortcut-hint.git"
@@ -141,6 +141,54 @@
         "when": "editorTextFocus && isMac",
         "args": {
           "key": "cmd+y"
+        }
+      },
+      {
+        "command": "intellijShortcutHint.checkShortcut",
+        "key": "ctrl+alt+left",
+        "when": "editorTextFocus && !isMac",
+        "args": {
+          "key": "ctrl+alt+left"
+        }
+      },
+      {
+        "command": "intellijShortcutHint.checkShortcut",
+        "key": "ctrl+alt+right",
+        "when": "editorTextFocus && !isMac",
+        "args": {
+          "key": "ctrl+alt+right"
+        }
+      },
+      {
+        "command": "intellijShortcutHint.checkShortcut",
+        "key": "cmd+alt+left",
+        "when": "editorTextFocus && isMac",
+        "args": {
+          "key": "option+cmd+left"
+        }
+      },
+      {
+        "command": "intellijShortcutHint.checkShortcut",
+        "key": "cmd+alt+right",
+        "when": "editorTextFocus && isMac",
+        "args": {
+          "key": "option+cmd+right"
+        }
+      },
+      {
+        "command": "intellijShortcutHint.checkShortcut",
+        "key": "cmd+[",
+        "when": "editorTextFocus && isMac",
+        "args": {
+          "key": "cmd+["
+        }
+      },
+      {
+        "command": "intellijShortcutHint.checkShortcut",
+        "key": "cmd+]",
+        "when": "editorTextFocus && isMac",
+        "args": {
+          "key": "cmd+]"
         }
       }
     ]

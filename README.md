@@ -31,6 +31,8 @@ Forcefully rebinding keys can cause conflicts and may hinder full adaptation to 
 | **Duplicate Line**   | `Cmd + D`             | `Ctrl + D`           | `Option + Shift + Down` | `Alt + Shift + Down`  |
 | **Navigate to File** | `Cmd + Shift + O`     | `Ctrl + Shift + N`   | `Cmd + P`               | `Ctrl + P`            |
 | **Recent Files**     | `Cmd + E`             | `Ctrl + E`           | `Ctrl + Tab`            | `Ctrl + Tab`          |
+| **Navigate Back**    | `Option + Cmd + Left` / `Cmd + [` | `Ctrl + Alt + Left` | `Ctrl + -`            | `Alt + Left`          |
+| **Navigate Forward** | `Option + Cmd + Right` / `Cmd + ]` | `Ctrl + Alt + Right` | `Ctrl + Shift + -`  | `Alt + Right`         |
 
 ## Resolving Keybinding Conflicts
 

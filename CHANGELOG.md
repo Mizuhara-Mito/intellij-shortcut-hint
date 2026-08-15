@@ -1,9 +1,12 @@
 # Change Log
 
-All notable changes to the "intellij-keymap-tooltip" extension will be documented in this file.
+All notable changes to the "IntelliJ Shortcut Hint" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.1.2] - 2026-08-15
 
-## [Unreleased]
+### Added
+- Added Navigate Back (`Option + Cmd + Left` / `Cmd + [`) & Navigate Forward (`Option + Cmd + Right` / `Cmd + ]`) shortcut hints for macOS and Windows/Linux.
+
+## [0.1.1]
 
 - Initial release
